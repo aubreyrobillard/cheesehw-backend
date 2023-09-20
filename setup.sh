@@ -1,4 +1,4 @@
-#!usr/vin/env bash
+#!/usr/vin/env bash
 
 # exit on error
 set -o errexit
