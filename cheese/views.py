@@ -1,7 +1,5 @@
-from django.shortcuts import render
 from .models import Cheese
-from rest_framework import permissions
-from rest_framework import viewsets
+from rest_framework import permissions, viewsets
 from .serializer import CheeseSerializer
 
 class CheeseViewSet(viewsets.ModelViewSet):

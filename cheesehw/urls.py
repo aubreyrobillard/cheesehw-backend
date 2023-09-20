@@ -24,6 +24,8 @@ router = routers.DefaultRouter()
 # register viewsets
 router.register(r'cheese', CheeseViewSet) #register the '/cheese' routes
 
+print(router.urls)
+
 urlpatterns = [
     # all router urls
     path('', include(router.urls)),
