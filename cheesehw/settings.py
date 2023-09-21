@@ -62,6 +62,7 @@ MIDDLEWARE = [
 
 CORS_ALLOW_ALL_CORS = True # allows all cors origins, read cors docs to limit
 
+Access-Control-Allow-Origin: *
 
 ROOT_URLCONF = 'cheesehw.urls'
 
