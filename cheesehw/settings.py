@@ -60,9 +60,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_ALL_CORS = True # allows all cors origins, read cors docs to limit
-
-Access-Control-Allow-Origin: True
+CORS_ALLOW_ALL_ORIGINS = True 
+# allows all cors origins, read cors docs to limit
 
 ROOT_URLCONF = 'cheesehw.urls'
 
